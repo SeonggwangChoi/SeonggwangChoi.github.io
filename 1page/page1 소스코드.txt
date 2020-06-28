@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		
+		*  {
+			padding: 0;
+			margin: 0;
+		}
+		li {
+			list-style-type: none;
+		}
+/* ------------------------------------------------------*/
+
+		.clear {
+			clear: both;
+		}
+		#page { /*가운데 정렬*/
+			width: 1300px;
+			margin: auto;
+			border: solid 0px #bbbbbb;
+		}
+/* ------------------------헤더------------------------------*/		
+
+		#logo {
+			float: left;
+			margin-top: 10px;
+		}
+		#mid {
+			float: left;
+			margin-top: 20px;
+			margin-left: 90px;
+		}
+		#top {
+			float: right;
+			margin-top: 20px;
+		}
+/* -------------------------네비게이터1-----------------------------*/
+		#navbackground {
+			background-color: #dcdcdc;
+		}
+		#nav1{
+			
+			height: 70px;
+			margin-top: 10px;
+			border: solid 0px #bbbbbb;
+			font-size: 16px;
+			text-align: center;
+		}
+		#nav1 li:hover {
+			background-color: #39d9c8;
+			text-decoration: underline;
+
+		}
+
+		#nav1 li{
+			display: inline-block;
+			margin: 20px 30px;
+		}
+/* -------------------------네비게이터2-----------------------------*/
+		#nav2 {
+			float: left;
+		}
+	
+	
+/* -------------------------섹션-----------------------------*/
+   		#section6 {
+
+	    }
+	    #section6 li {
+	    	display: inline-block;
+	    	padding-right: 8px;
+	    	padding-top: 20px;
+	    	font-size: 15px;
+
+	    }
+	 	 #section6 li:hover {
+	    	text-decoration: underline;
+	    }
+
+	    #section6span {
+	    	font-weight: bold;
+	    	font-size: 20px;
+	    	padding-right: 10px;
+	    }
+
+/* ----------------------------etc--------------------------*/
+		.sectionspan {
+			color: #40E0D0
+		}
+/*--------------------------------------------------------*/
+
+
+
+		header {
+			width: 1300px;
+			height: 100px;
+			margin-top: 25px;
+			border: 0px solid #bbbbbb;
+		}	
+		section{
+			
+			border: 0px solid #bbbbbb;
+			padding-bottom: 20px;
+			width: 1300px;
+		}
+		section li{
+			padding-top: 10px;
+			padding-right: 10px;
+			display: inline;
+
+		}
+		aside {
+			float: left;
+			border: 0px solid #bbbbbb;
+			margin-top: 3px;
+			margin-right: 50px;
+		}
+		aside li{
+			
+			text-align: left;
+			margin-bottom: 30px;
+			font-weight: bold;
+		}
+
+		aside li:hover {
+			background-color: #64CD3C;
+		}
+
+
+		footer   {
+			width: 1300px;
+			height: 100px;
+			margin: 10px 0 10px 0;
+			border: solid 0px #bbbbbb;
+
+		}
+
+
+/*------------------------------------------------------*/
+	</style>
+
+</head>
+<body id="page">
+
+	<header>
+		<div id="logo"><img src="C:\과제폴더\2. 웹프로그래밍기초\기말고사\kcdc.jpg"></div>
+		<div id="mid"><img src="C:\과제폴더\2. 웹프로그래밍기초\기말고사\naver.jpg"></div>
+		<div id="top"><img src="C:\과제폴더\2. 웹프로그래밍기초\기말고사\right.jpg"></div>
+
+
+	</header>
+
+		<div class="clear"></div>
+<hr>
+<!-- ------------------------------------------------------- -->
+	<nav id="nav1">
+		<ul class="bold">
+			<li>감염병</li>
+			<li>건강정보</li>
+			<li>정책정보</li>
+			<li>연구개발</li>
+			<li>알림º자료</li>
+			<li>간행물º통계</li>
+			<li>민원º정보공개</li>
+			<li>기관소개</li>
+			<li>사업별홈페이지</li>
+		</ul>
+
+	</nav>
+
+		<div class="clear"></div>
+<hr>
+<!-- ------------------------------------------------------- -->
+	
+		
+
+
+
+		<aside id="nav2">
+			<h2>기관소개</h2>					<hr>
+			<ul>
+				<li>소개</li>					<hr> 	
+				<li>비전과미션</li>				<hr>
+				<li>핵심사업</li>				<hr>
+				<li>연혁</li>					<hr>
+				<li>조직.직원찾기</li>			<hr>
+				<li>정부상징</li>				<hr>
+				<li>오시는길</li>				<hr>
+				<li>시설안내</li>				<hr>
+				<li>누리집이용안내</li>			<hr>
+
+			</ul>
+		</aside>
+<!-- ------------------------------------------------------- -->	
+	
+
+	<section>
+		<h2>인사말</h2>
+		<hr>
+		<ul>
+			<li>작성일 2019-05-16 | </li>
+			<li>최종수정일 2019-12-19 | </li>
+			<li>담당부서 운영지원팀 | </li>
+			<li>연락처 043-719-7007 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			&nbsp</li>
+			<li>⊙ 101,494</li>
+			
+		</ul>
+		<img src="C:\과제폴더\2. 웹프로그래밍기초\기말고사\1page\MsJung.jpg" width="1100px;"> <p>
+		</section>
+
+
+		
+		<h3><span class="sectionspan">첫째,</span> 감염병으로부터 안전한 사회를 위해 24시간 365일 대응하겠습니다.</h3>
+		국제 교류 증가, 기후변화, 환경파괴 등 전 세계적으로 메르스, 에볼라열과 같은 신종감염병 위험이 증가하고 있습니다. 이와 더불어 결핵, 중증열성혈소판감소증후군, 수인성감염병 등 국내 유행 감염병도 지속 발생하고 있습니다. <p>
+
+		24시간 긴급상황실·즉각대응팀 운영, 격리병상·치료제 자원 확보, 관계 부처·지자체·의료계 협력체계 구축, 역학조사 전문 인력 양성·훈련 등을 통해 신종감염병 공중보건위기에 대비하겠습니다.<p>
+
+		국가 예방접종 사업을 확대하고 감염병 예방수칙 홍보를 통해 감염병을 예방하고 주요 감염병별 맞춤형 대책을 지속 추진하겠습니다. <p>
+
+		<h3><span class="sectionspan">둘째,</span> 만성질환, 희귀질환에 대한 예방관리대책을 추진하겠습니다.</h3>
+
+		인구 고령화에 따라 치매, 심뇌혈관질환으로 인한 질병부담이 증가하고 있습니다.<p>
+
+		만성질환 예방관리를 위한 건강지표를 생산·분석하고, 건강 문제와 건강격차 원인을 규명하여 근거 기반의 만성질환 예방관리 정책을 추진하겠습니다.<p>
+
+		희귀질환 의료비 지원, 진단 및 상담 지원, 연구를 강화하겠습니다.<p>
+
+		<h3><span class="sectionspan">셋째,</span> 질병 극복, 건강수명연장을 위한 질병관리 R&D를 강화하겠습니다.</h3>
+
+		국립보건연구원은 국가 질병관리 R&D 중추기관으로서 공공에서 반드시 수행해야 할 감염병 및 만성질환, 한국인 유전체에 대한 연구를 수행하고 있습니다.<p>
+
+		보건의료 R&D 인프라 확충을 통하여 민간연구 활성화를 지원하고, 유전체 연구, 줄기세포 및 재생의료 연구, 공공백신 개발연구 등 중점분야에 대한 선도적 연구를 수행하겠습니다. <p>
+
+		질병관리본부는 국가 공중보건관리 중추기관으로서 국민 건강을 증진하고, 공중보건 위기로부터 사회 안전을 지키기 위해, 전문성·혁신·소통·신뢰를 기반으로 24시간 365일 최선을 다하겠습니다.<p>
+
+		<h3>질병관리본부장 정은경</h3>
+
+
+
+		
+	</section>
+
+<hr>
+<!-- --------------------------------------------------------->	
+	<section id="section6">
+		
+		<ul>
+			<span id="section6span">관련링크< ></span>
+
+			<li>임상진료지침 디지털 가이드라인</li>
+			<li>KoGES</li>
+			<li>질병관리본부국제학술지(Osong PHRP)</li>
+			<li>만성신장코호트연구</li>
+			<li>국민건강영양조사</li>
+			<li>국립의과학지식센터</li>
+			<li>보건복지통계</li>
+		</ul>
+	</section>
+
+<div class="clear"></div>
+<!-- ------------------------------------------------------- -->
+
+	<footer>
+
+		<img src="C:\과제폴더\2. 웹프로그래밍기초\기말고사\footer.jpg" width="1300px">
+	</footer>
+
+
+
+
+
+</body>
+</html>

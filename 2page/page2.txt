@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		
+		*  {
+			padding: 0;
+			margin: 0;
+		}
+		li {
+			list-style-type: none;
+		}
+/* ------------------------------------------------------*/
+
+		.clear {
+			clear: both;
+		}
+		#page { /*가운데 정렬*/
+			width: 1300px;
+			margin: auto;
+			border: solid 0px #bbbbbb;
+		}
+/* ------------------------헤더------------------------------*/		
+
+		#logo {
+			float: left;
+			margin-top: 10px;
+		}
+		#mid {
+			float: left;
+			margin-top: 20px;
+			margin-left: 90px;
+		}
+		#top {
+			float: right;
+			margin-top: 20px;
+		}
+/* -------------------------네비게이터1-----------------------------*/
+		#navbackground {
+			background-color: #dcdcdc;
+		}
+		#nav1{
+			
+			height: 70px;
+			margin-top: 10px;
+			border: solid 0px #bbbbbb;
+			font-size: 16px;
+			text-align: center;
+		}
+		#nav1 li:hover {
+			background-color: #39d9c8;
+			text-decoration: underline;
+
+		}
+
+		#nav1 li{
+			display: inline-block;
+			margin: 20px 30px;
+		}
+/* -------------------------네비게이터2-----------------------------*/
+		#nav2 {
+			float: left;
+		}
+	
+	
+/* -------------------------섹션-----------------------------*/
+   		#section6 {
+
+	    }
+	    #section6 li {
+	    	display: inline-block;
+	    	padding-right: 8px;
+	    	padding-top: 20px;
+	    	font-size: 15px;
+
+	    }
+	 	 #section6 li:hover {
+	    	text-decoration: underline;
+	    }
+
+	    #section6span {
+	    	font-weight: bold;
+	    	font-size: 20px;
+	    	padding-right: 10px;
+	    }
+	    .sectionpadding {
+	    	padding-left: 162px;
+	    }
+
+/* ----------------------------etc--------------------------*/
+		.sectionspan {
+			color: #40E0D0
+		}
+		#clearleft {
+			clear: left;
+		}
+/*--------------------------------------------------------*/
+
+
+
+		header {
+			width: 1300px;
+			height: 100px;
+			margin-top: 25px;
+			border: 0px solid #bbbbbb;
+		}	
+		section{
+
+			border: 0px solid #bbbbbb;
+			padding-bottom: 20px;
+			width: 1300px;
+		}
+		section li{
+			padding-top: 10px;
+			padding-right: 10px;
+			display: inline;
+
+		}
+		aside {
+			float: left;
+			border: 0px solid #bbbbbb;
+			margin-top: 3px;
+			margin-right: 50px;
+		}
+		aside li{
+			
+			text-align: left;
+			margin-bottom: 30px;
+			font-weight: bold;
+		}
+
+		aside li:hover {
+			background-color: #64CD3C;
+		}
+
+
+		footer   {
+			width: 1300px;
+			height: 100px;
+			margin: 10px 0 10px 0;
+			border: solid 0px #bbbbbb;
+
+		}
+
+
+/*------------------------------------------------------*/
+	</style>
+
+</head>
+<body id="page">
+
+	<header>
+		<div id="logo"><img src="C:\과제폴더\2. 웹프로그래밍기초\기말고사\kcdc.jpg"></div>
+		<div id="mid"><img src="C:\과제폴더\2. 웹프로그래밍기초\기말고사\naver.jpg"></div>
+		<div id="top"><img src="C:\과제폴더\2. 웹프로그래밍기초\기말고사\right.jpg"></div>
+
+
+	</header>
+
+		<div class="clear"></div>
+<hr>
+<!-- ------------------------------------------------------- -->
+	<nav id="nav1">
+		<ul class="bold">
+			<li>감염병</li>
+			<li>건강정보</li>
+			<li>정책정보</li>
+			<li>연구개발</li>
+			<li>알림º자료</li>
+			<li>간행물º통계</li>
+			<li>민원º정보공개</li>
+			<li>기관소개</li>
+			<li>사업별홈페이지</li>
+		</ul>
+
+	</nav>
+
+
+<hr>
+<!-- -----------------------ASIDE-------------------------------- -->
+	
+
+
+		<aside id="nav2">
+			<h2>알림.자료</h2>					<hr>
+			<ul>
+				<li>이달의건강소식</li>			<hr> 	
+				<li>보도자료</li>				<hr>
+				<li>포토뉴스</li>				<hr>
+				<li>홍보자료</li>				<hr>
+				<li>공지사항</li>				<hr>
+				<li>공고/공시</li>				<hr>
+				<li>채용공고</li>				<hr>
+				<li>법령.지침.서식</li>			<hr>
+			
+			</ul>
+		</aside>
+		
+<!-- ------------------------------------------------------- -->	
+
+
+	<section>
+		<h2>인사말</h2>
+		<hr>
+		<ul>
+			<li>작성일 2020-06-25 | </li>
+			<li>최종수정일 2020-06-26 | </li>
+			<li>작성자 위기소통담당관 | </li>
+			<li>연락처 043-719-7007 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			&nbsp</li>
+			<li>⊙ 608</li>	
+		</ul>
+	
+
+	
+	
+		<img src="C:\과제폴더\2. 웹프로그래밍기초\기말고사\2page\image1.jpg">
+		<section class="sectionpadding"><img src="C:\과제폴더\2. 웹프로그래밍기초\기말고사\2page\image2.jpg"></section>
+		<section class="sectionpadding"><img src="C:\과제폴더\2. 웹프로그래밍기초\기말고사\2page\image3.jpg"></section>
+		<section class="sectionpadding"><img src="C:\과제폴더\2. 웹프로그래밍기초\기말고사\2page\image4.jpg"></section>
+		<section class="sectionpadding"><img src="C:\과제폴더\2. 웹프로그래밍기초\기말고사\2page\image5.jpg"></section>
+
+
+		
+	</section>
+
+<hr>
+<!-- --------------------------------------------------------->	
+	<section id="section6">
+		
+		<ul>
+			<span id="section6span">관련링크< ></span>
+
+			<li>임상진료지침 디지털 가이드라인</li>
+			<li>KoGES</li>
+			<li>질병관리본부국제학술지(Osong PHRP)</li>
+			<li>만성신장코호트연구</li>
+			<li>국민건강영양조사</li>
+			<li>국립의과학지식센터</li>
+			<li>보건복지통계</li>
+		</ul>
+	</section>
+
+
+<!-- ------------------------------------------------------- -->
+
+	<footer>
+
+		<img src="C:\과제폴더\2. 웹프로그래밍기초\기말고사\footer.jpg" width="1300px">
+	</footer>
+
+
+
+
+
+</body>
+</html>
